@@ -1,9 +1,9 @@
 #!/bin/sh
 
 echo "*** Initial system setup"
-apt update
+apt update -y
 apt upgrade -y
-apt install docker.io
+apt install -y docker.io
 
 echo ""
 echo "*** Setup script"
