@@ -1,0 +1,8 @@
+[Unit]
+Description=Presearch Node
+
+[Service]
+ExecStart=/root/run
+
+[Install]
+WantedBy=multi-user.target
